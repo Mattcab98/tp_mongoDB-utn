@@ -1,0 +1,21 @@
+{
+  "name": "tp_mongodb",
+  "version": "1.0.0",
+  "description": "primer trabajo practico sobre base de datos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn index.ts",
+    "start": "tsc && node ./src/index.js",
+    "build": "tsc"
+  },
+  "author": "Matias Alvarez Bustos",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2"
+  }
+}
