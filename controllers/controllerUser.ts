@@ -1,7 +1,4 @@
-import mongoose, { Schema, Document } from "mongoose";
-import { connectDB } from "./config/mongo";
-
-connectDB();
+import mongoose, { Schema } from "mongoose";
 
 interface UserInterface {
     userName: string;
